@@ -8,6 +8,7 @@ import facebookIcon from './assets/icon-facebook.svg';
 import twitterIcon from './assets/icon-twitter.svg';
 import pinterestIcon from './assets/icon-pinterest.svg';
 import instagramIcon from './assets/icon-instagram.svg';
+import './style.css'
 
 
 function App() {

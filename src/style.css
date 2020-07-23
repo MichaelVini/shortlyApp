@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: 'Poppins', cursive;
+    font-size: 1.125em;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Conteudo Geral*/
+
+.shortly-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+/* Menu */
+
+.menu {
+    display: flex;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav ul li {
+    margin-left: 30px;   
+}
+
+.menu-nav ul li a {
+    font-weight: 700;
+    color: hsl(0, 0%, 75%);
+}
+
+.menu-nav ul li a:hover {
+    color: black;
+}
+
+.bg-login a {
+    color: hsl(0, 0%, 75%);
+    font-weight: bold;
+}
+
+.bg-login a:hover {
+    color: black;
+}
+
+.bg-login button {
+    margin-left: 30px;
+    font-family: 'Poppins', cursive;
+    font-size: 0.8em;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 18px;
+    background: #2bd0d0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bg-login button:hover {
+    background: #2bd0d0b9;
+}
