@@ -24,7 +24,7 @@ class App extends Component {
   }
 
   shorten = async () => {
-    
+
     const selectInput = document.querySelector('.input')
     const response = await api.post('/', { url: `${this.state.link}` });
 
@@ -37,7 +37,7 @@ class App extends Component {
     })
 
     console.log(this.state.info);
-    selectInput.value='';
+    selectInput.value = '';
   }
 
   render() {
@@ -90,11 +90,14 @@ class App extends Component {
               <div className="history-shorten">
                 <ul>
 
-                  <div className='product-list'>
-                    {info.map(product => (
-                        <h3>{product.url}</h3>
+                  <li>
+                    {info.map(list => (
+                      <div>
+                        <h3>{list.link}</h3>
+                        <p>{list.url}</p>
+                      </div>
                     ))}
-                  </div>
+                  </li>
 
                 </ul>
               </div>
